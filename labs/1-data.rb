@@ -1,3 +1,6 @@
+# to change directory, "cd .." to go up a level
+# cd directoryname/ to go into new one
+
 # To run this code, be sure your current working directory
 # is the same as where this file is located and then run:
 # ruby 1-data.rb
@@ -9,6 +12,16 @@
 # dice. Set two variables, with names that make sense,
 # then write them out to the screen. Show the total
 # as well.
+
+die1 = rand(1..6)
+die2 = rand(1..6)
+
+# puts "first die: #{die1}"
+# puts "second die: #{die2}"
+
+# Output "Total: ..."
+total = die1 + die2
+puts "Total: #{total}"
 
 # HINTS
 # Get a random number between 1 and 6 by doing:
